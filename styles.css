@@ -4,7 +4,7 @@ html, body {
 
 html {
     scroll-behavior: smooth;
-}  
+}
 
 * {
     box-sizing: border-box;
@@ -281,3 +281,4 @@ footer {
     margin-top: 40px;
 
 }
+
