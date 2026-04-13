@@ -457,6 +457,8 @@ footer {
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); 
 }
 
+
+
 /* --- Branding --- */
 .branding-section {
     padding: 80px 10%;
@@ -493,6 +495,8 @@ footer {
     color: #ffcedf;
     line-height: 1.6;
 }
+
+
 
 /* --- Logo Math Stuff --- */
 .logo-anatomy {
@@ -545,4 +549,59 @@ footer {
         grid-template-columns: 1fr;
         flex-direction: column;
     }
+}
+
+
+
+/* --- Content Plan --- */
+.content-plan {
+    padding: 80px 10%;
+    background: #420430;
+}
+.plan-container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.plan-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    background: linear-gradient(90deg, #FF8A00, #e37dff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.plan-content {
+    display: flex;
+    gap: 30px;
+}
+.plan-box {
+    flex: 1;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 30px;
+    border-radius: 15px;
+    border-left: 4px solid #C24878;
+}
+.plan-box h3 {
+    color: #ffa25c;
+    margin-top: 0;
+}
+.plan-box p {
+    color: #ffcedf;
+    line-height: 1.6;
+}
+.wide-plan-box {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 30px;
+    border-radius: 15px;
+    border-left: 4px solid #C24878;
+    margin-bottom: 20px;
+}
+.wide-plan-box h3 {
+    color: #ffa25c;
+    margin-top: 0;
+    text-align: center;
+}
+.wide-plan-box p {
+    color: #ffcedf;
+    line-height: 1.6;
 }
