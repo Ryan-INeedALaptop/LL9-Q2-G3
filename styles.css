@@ -417,7 +417,7 @@ footer {
 .needs-ko {
     width: 100%;
     padding: 80px 10%;
-    margin-top: 40px;
+    margin-top: 20px;
     background: #520541;
     color: #f4e9ff;
     font-family: "Elms Sans", sans-serif;
@@ -604,4 +604,21 @@ footer {
 .wide-plan-box p {
     color: #ffcedf;
     line-height: 1.6;
+}
+
+/* --- Survey Results --- */
+.survey-stats {
+    padding: 80px 10%;
+    background: #520541;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: inline-flex;
+}
+.survey-results {
+    width: 200%;
+    max-width: 1200px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.35);
+    
 }
